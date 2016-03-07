@@ -2,7 +2,220 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+/*   background-color: #F8F8F8; */
+  background-color: #F0F0F0;
+  margin: 0;
+/*   font-family: Tahoma, Geneva, sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+/*   display: -webkit-flex; */
+/*   display: flex; */
+/*   width: 400px; */
+/*   height: 250px; */
+/*   background-size: cover; */
+}
+
+h1,h2,h3,h4,h5,h6 {
+/*   font-family: Tahoma, Geneva, sans-serif; */
+/*   font-family: "Trebuchet MS", Helvetica, sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+/*   font-family: Verdana, Geneva, sans-serif; */
+}
+
+header {
+  background-image: url('starry-night.jpg');
+/*   height: 550px; */
+/*   height: 600px; */
+  height: 500px;
+/*   width: 100%; */
+/*   background-repeat: no-repeat; */
+  background-position: center center;
+  background-size: cover;
+}
+
+h1 {
+  align: center;
+/*   font-size: 170px; */
+  font-size: 120px;
+/*   margin-left: 620px; */
+  margin-left: 50px;
+  color: white;
+  margin-top: 0px;
+  font-weight: 100;
+  padding-top: 40px;
+}
+
+.subtitle {
+/*   margin-left: 880px; */
+  margin-left: 100px;
+  margin-top: -90px;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  padding: 40px;
+}
+
+/* social --------------------------------------------------------------------------------- */
+#social {
+  background-color: ;
+/*   position: absolute; */
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 60px;
+  transition: 0.5s width;
+}
+
+#social:hover {    /* <--- this is a pseudo class */ 
+  width: 86px;
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social li {
+  margin: 0;
+  padding 0;
+}
+
+.social-links {
+/*   margin-left: 0px; */
+}
+
+.social-links img {
+/*   width: 35px;  */
+  width: 60px;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+/* Top-Nav ---------------------------------------------------------------------- */
+ul.top-nav {
+/*   position: fixed; */
+  top: 0;
+/*   width: 100%; */
+  margin-top: 0;
+/*   margin-left: 50px; */
+}
+
+.top-nav {
+  list-style-type: none;
+/*   float: top; */
+  margin-top 10px;
+  padding: 10px;
+  overflow: hidden;
+/*   background-color: #333; */
+/*   position: fixed; */
+}
+
+.top-nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+/*   width: 33%; */
+  width: 19%;
+  font-size: 21px;
+}
+
+.top-nav li a {
+  display: block;
+/*   color: white; */
+  color: black;
+  text-align: center;
+  padding: 14px; 16px;
+  text-decoration: none;
+}
+
+.top-nav li a:hover {
+  color: white;
+  background-color: #111;
+/*   background-color: #00ccff; */
+/*   position: fixed; */
+}
+
+.top-nav .active {
+  background-color: #504caf;
+}
+
+.top-nav li:last-child {
+  border-right: none;
+}
+
+/* about ------------------------------------------------------------------------ */
+.about-container {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+/*   text-align: justify;   */
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+/* video -------------------------------------------------------------------------*/
+
+.video-container {
+  text-align: center;
+  position: relative;
+/*   margin-right: 2%; */
+/*   margin-left: 150px; */
+/*   margin-left: 13%; */
+  margin-top: 60px;
+}
+
+/* features ----------------------------------------------------------------------*/
+
+.features-container {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+/*   margin-top: 295px; */
+/*   margin-bottom: 130px; */
+}
+
+/* testimonials ------------------------------------------------------------------*/
+
+.testimonials-container {
+/*   text-align: center; */
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+/*   text-align: justify;   */
+/*   font-size: 30px; */
+  line-height: 1.3;
+}
+
+.photo {
+  width: 250px;
+  float: left;
+  list-style-type: inline;
+}
+
+.customers ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+/*   background-color: blue; */
+}
+
+.customers li {
+/*   display: inline; */
+/*   float: left; */
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 25px;
+/*   padding: 25px; */
+/*   background-color: blue; */
+}
+
+img.photo {
+/*   display: block; */
+/*   padding: 10px; */
+  padding-right: 0px;
+/*   margin: 10px; */
 }
