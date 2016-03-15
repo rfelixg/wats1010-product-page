@@ -41,6 +41,8 @@
     </header>
 
 <!-- social ---------------------------------------------------------------------------------->    
+    
+    <!-- TODO: Create an area that allows users to Share links to the page. -->
     <aside id="social">
       <ul class="social-links">
         <!-- Twitter --> 
@@ -72,21 +74,15 @@
         <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-      
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
 <!-- about ------------------------------------------------------------------------------>
-  
   
   <!-- TODO: Create an area to put the long product description. -->
   <div class="about-container">
     <section id="about">
+      <h2>We Love APIs</h2>
       <p class="about">You're busy, why waste time digging around for API's? The API store provides you with access to a catalog of third-party APIs that you can use to enhance your business and enrich your life.
         <br><br>
-                       From e-commerce, to maps, API Superstore lists all of the services that customers expect, and saves you the headache of sorting it out yourself!
+        From e-commerce, to maps, API Superstore lists all of the services that customers expect, and saves you the headache of sorting it out yourself!
     </section>
   </div>
 
@@ -108,6 +104,7 @@
       <!--     <div class="row"> -->
       <!--       <section class="col-md-6"> -->
       <p>
+        <img class="featurespic" src="r&m-8.png" alt="pic">
         Access to the newest, latest, and best API's available today<br><br>
         The convenience of having one account host all of your purchases<br><br>
         Don't worry, Instant notification when new API's are announced, and updates released<br><br>
@@ -115,48 +112,87 @@
       </p>
       <!--       </section> -->
       <!--     </div> -->
-  </div>  
+    </section>
+  </div>
+    
 <!-- testimonials ------------------------------------------------------------------------>
   
     <!-- TODO: Create an area to put customer testimonials. -->
     <div class="testimonials-container">
-      <h2>Testimonials</h2>
-      <section id="testimonials">
-      <div class="customers">
-        <ul class="customers">
-          <li>
-<!--             <img class="photo" src="thumb.jpg" alt="Customer 1"><br> -->
-            Once again, I’m blownwn away by the amazing offerings of the API Superstore. You really are SUPER!
-            <br><br>
-            - Clara Cache, Amazed Customer
-          </li>
-          <li>
-<!--             <img class="photo" src="thumb.jpg" alt="Customer 2"><br> -->
-            The API Superstore team has created a divine interface. I’m now able to keep up with the churn of information that makes application development so difficult. Please don’t stop rocking!
-            <br><br>
-            - Clara Cache, Amazed Customer
-          </li>
-          <li>
-<!--             <img class="photo" src="thumb.jpg" alt="Customer 3"><br> -->
-            This is the best website ever!
-            <br><br>
-            - C.P. Yu, Amazingsite.com
-          </li>
-        </ul>
-      </div>
+      <section id="testimonails">
+        <h2 class="testimonials">Testimonials</h2>
+<!--         <p class="lead">Our Customers Love the API Store</p> -->
+        <br>
+        <br>
+<!--         <div class="profiles"> -->
+          <ul class="api-people">
+            <li>
+              <img class="headshot" src="thumb.jpg" alt="Customer 1 headshot"><br><br>
+              Once again, I’m blownwn away by the amazing offerings<br> 
+              of the API Superstore. You really are SUPER!
+              <br><br>
+              - Clara Cache, Amazed Customer<br><br>
+            </li>
+            <li>
+              <img class="headshot" src="thumb.jpg" alt="Customer 2 headshot"><br><br>
+              The API Superstore team has created a divine interface.<br>
+              Please don’t stop rocking!
+              <br><br>
+              - John Smith, Rocking Customer<br><br>
+            </li>
+            <li>
+              <img class="headshot" src="thumb.jpg" alt="Customer 3 headshot"><br><br>
+              This is the best website ever!
+              <br><br>
+              - C.P. Yu, Amazingsite.com
+            </li>
+          </ul>
+<!--         </div> -->
       </section>
     </div>
-
+  
 <!-- sign up ------------------------------------------------------------------------>
 
   <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-          
+             service. -->  
+  <div class="sign-up-container">
+    <h2>Sign-Up to the API Superstore</h2>
+    <section id="sign-up">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname">
 
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+
+          <option value="australia">United States of America</option>
+          <option value="canada">Canada</option>
+          <option value="usa">United Kingdom</option>
+        </select>
+
+        <input type="submit" value="Sign-Up">
+      </form>
+    </section>
+  </div>
+
+<!-- contact ------------------------------------------------------------------------>
+        
+  <!-- TODO: Create an area to show company contact info (phone, location, etc.) -->
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <section id="contact">
+      <p> 
+        The API Superstore<br><br>
+        1203 12th Ave, Seattle, WA 98101 - 201-294-0239 - info@apisuperstore.com
+      </p>
+    </section>
+  </div> 
   
-
-
-      
-
   </body>
 </html>
